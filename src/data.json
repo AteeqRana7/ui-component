@@ -1,0 +1,29 @@
+{
+  "title": "Adidas",
+  "highlights": [
+    {
+      "title": "Football Kits",
+      "rate": 9.5,
+      "growth": 0.8,
+      "new": false
+    },
+    {
+      "title": "Casual Shoes",
+      "rate": 2.4,
+      "growth": 2.4,
+      "new": false
+    },
+    {
+      "title": "Kids Sports",
+      "rate": false,
+      "growth": false,
+      "new": true
+    },
+    {
+      "title": "Basketball Kits",
+      "rate": false,
+      "growth": false,
+      "new": true
+    }
+  ]
+}

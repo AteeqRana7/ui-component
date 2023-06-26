@@ -1,0 +1,26 @@
+@import '../../variables';
+
+.list-item {
+  list-style: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+  max-width: 90%;
+  &__body {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  &__title {
+    margin: 1rem auto 0.5rem 0;
+    max-width: 75%;
+    white-space: nowrap;
+    overflow: hidden;
+    color: rgb(184, 184, 184);
+    text-overflow: ellipsis;
+  }
+  &__growth {
+    margin: 0 1rem;
+    color: $positive-color;
+  }
+}

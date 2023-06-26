@@ -1,0 +1,43 @@
+@import '../../variables';
+
+.badge {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.6rem;
+  &-text {
+    display: inline;
+  }
+  &-new {
+    background: $new-badge-color;
+    max-width: 50px;
+    font-weight: 700;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    color: #222222;
+    .badge-text {
+      margin: 0.3rem;
+    }
+  }
+  &-up {
+    background: $positive-color;
+    max-width: 70px;
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #fff;
+    .badge-text {
+      margin: 0.3rem;
+    }
+  }
+  &-down {
+    background: $negative-color;
+    max-width: 70px;
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #fff;
+    .badge-text {
+      margin: 0.3rem;
+    }
+  }
+}

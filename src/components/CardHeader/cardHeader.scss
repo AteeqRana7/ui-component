@@ -1,0 +1,61 @@
+@import '../../variables';
+
+.card-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  margin: 0 0 1.5rem 0;
+  &__main,
+  &__stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    &-title {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      margin-right: auto;
+      font-weight: 600;
+      font-size: 1.5rem;
+      p {
+        margin: 0 1rem;
+      }
+      .badge-up {
+        width: 35px;
+      }
+    }
+    &-quarters {
+      font-weight: 600;
+      font-size: 1.2rem;
+      color: rgb(184, 184, 184);
+      margin: 0.8rem;
+    }
+  }
+
+  &__stats {
+    &-title,
+    &-quarters {
+      font-size: 1.6rem;
+    }
+    &-title {
+      color: $positive-color;
+    }
+  }
+
+  &__highlights {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    color: rgb(184, 184, 184);
+    p {
+      margin: 0 1rem;
+      font-size: 1.3rem;
+    }
+  }
+}
